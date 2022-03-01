@@ -1,0 +1,22 @@
+/*****  General Style******/
+
+:root{
+  --bodyColor :#0E0E11;
+  --mainColor:#963821;
+  --grayColor:#b0b5c5;
+  --seconderyColor:#4b484c;
+  --thirdColor:#c9cdd5;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--bodyColor);
+}
+.container{
+  margin: auto;
+  width: 85%;
+}
+/***********/
