@@ -50,6 +50,8 @@ header .list {
 header .list li a {
   color: var(--bodyColor);
   font-weight: bold;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.5rem;
 }
 header .main-title {
   text-align: center;
@@ -60,14 +62,12 @@ header .main-title {
   font-size: 2.5rem;
   color: var(--whiteColor);
 }
-
 /******* About Section ***/
 .about {
   margin-top: 20px;
   text-align: center;
   color: var(--whiteColor);
   padding: 60px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .about h2 {
   padding-bottom: 50px;
@@ -83,7 +83,6 @@ header .main-title {
 /**** Image Section***/
 .image {
   height: 400px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .image-item {
   width: 900px;
@@ -91,7 +90,6 @@ header .main-title {
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 30px auto;
-  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .image-item .img {
   width: 24%;
@@ -106,7 +104,7 @@ header .main-title {
   transition: all 0.5s ease-in-out;
 }
 .image-item .img img:hover {
-  transform: scale(2);
+  transform: scale(1.2);
 }
 .image .see-more {
   position: absolute;
@@ -129,10 +127,8 @@ header .main-title {
 /******  Video Section***/
 .video {
   margin-top: 20px;
-  /* width: 900px; */
   height: 400px;
   position: relative;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .video .video-item {
   padding: 20px;
@@ -140,7 +136,6 @@ header .main-title {
   height: 300px;
   margin: auto;
 }
-/* width="900" height="240" */
 .video .see-more {
   position: absolute;
   left: 46%;
@@ -164,10 +159,9 @@ header .main-title {
 /**** footer Section*/
 footer {
   margin-top: 20px;
-  /* background-color:var(--grayColor); */
   padding: 20px;
   border: 1px solid var(--bodyColor);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 footer p {
   text-align: center;
