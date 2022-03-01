@@ -1,5 +1,5 @@
 /*****  General Style******/
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&family=League+Gothic&family=Nunito+Sans:wght@200&family=Poppins:wght@200&family=Roboto+Serif:ital,wght@0,500;1,400&display=swap');
 :root {
   --bodyColor: #0e0e11;
   --mainColor: #963821;
@@ -15,6 +15,11 @@
 }
 body {
   background-color: var(--bodyColor);
+  font-family: 'IBM Plex Serif', serif;
+  font-family: 'League Gothic', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Serif', sans-serif;
 }
 .container {
   margin: auto;
@@ -29,7 +34,7 @@ a {
 /*****Home Page******/
 header {
   background-image: url("../img/pexels-jaymantri-4827.jpg");
-  height: 625px;
+  height: 100vh;
   background-position: center;
   color: var(--bodyColor);
   position: relative;
@@ -41,7 +46,7 @@ header {
   background-color: rgba(0, 0, 0, 0.8);
 }
 header .list {
-  width: 30%;
+  width: 40%;
   display: flex;
   margin: auto;
   padding-top: 30px;
@@ -52,6 +57,9 @@ header .list li a {
   font-weight: bold;
   transition: all 0.5s ease-in-out;
   font-size: 1.5rem;
+}
+header .list li a:hover {
+  color: var(--mainColor);
 }
 header .main-title {
   text-align: center;
@@ -84,6 +92,7 @@ header .main-title {
 .image {
   height: 400px;
 }
+
 .image-item {
   width: 900px;
   display: flex;
@@ -166,4 +175,14 @@ footer {
 footer p {
   text-align: center;
   color: var(--grayColor);
+}
+/*** Image Page ****/
+.header {
+  height: 50vh;
+}
+.images h2 {
+  text-align: center;
+  color: var(--whiteColor);
+  margin-top: 10px;
+  text-shadow: var(--mainColor);
 }
