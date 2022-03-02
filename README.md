@@ -23,7 +23,7 @@ Photographer is a small website to show images & videos 🤳
 When user open Photographer website he will see some of photos and videos,
 then user can show only images or videos & search for it.
 
-### 🗺️ <span id="journy">User Journy</span>
+### 📰 <span id="story">User Journy</span>
 
 - _As a user_, I will be able to see all photos & videos on website.
 - _As a user_, I will be able to search about photos.
