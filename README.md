@@ -46,10 +46,12 @@ APIs used in our website is:
 - Git & GitHub.
 
 ### 📌 <span id="install">Install Project</span>
-- ```git clone https://github.com/GSG-G11/photographer-karam-maram.git
+- ```
+git clone https://github.com/GSG-G11/photographer-karam-maram.git
 cd photographer-karam-maram
 code .
-npm i```
+npm i
+```
 
 ### 👪 <span id="team">Team</span>
 - Karam Zomlot.
