@@ -7,6 +7,7 @@ fetch("/Imagedata")
 .then(data => generateImages(data))
 
 const generateImages = (arr) => {
+    imageInit.innerHTML = "";
     arr.forEach(ele => {
         const imgCont = document.createElement("div");
         imgCont.classList.add("img");
