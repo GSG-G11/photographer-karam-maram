@@ -16,7 +16,7 @@ Photographer is a small website to show images & videos 🤳
 
 ### :link: <span id='Links'>Live Link</span>
 
-- [Visit Site](https://www.google.com)
+- [Visit Site](https://gsg-photographer.herokuapp.com)
 
 ### 🗺️ <span id="journy">User Journy</span>
 

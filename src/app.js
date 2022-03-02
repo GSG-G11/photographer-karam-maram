@@ -19,6 +19,14 @@ app.get("/image" , (req,res) =>{
 app.get("/Imagedata", getData)
 app.post("/searchImages", serachData)
 
+app.use((req, res) => {
+  res.status(404).sendFile(join(__dirname, '..', 'public', '404.html'));
+});
+
+app.use((err, req, res, next) => {
+  res.status(500).sendFile(join(__dirname, '..', 'public', '500.html'));
+});
+
 app.set('port',process.env.PORT || 3000);
 // app.use(router);
-module.exports =app;
+module.exports = app;
