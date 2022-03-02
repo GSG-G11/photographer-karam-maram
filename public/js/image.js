@@ -10,16 +10,16 @@ searchImg.addEventListener("click", () => {
             mode: 'cors',
             cache: 'no-cache',
             credentials: 'same-origin',
-            // headers: {
-            //     'Content-Type': 'application/json',
-            // },
+            headers: {
+                'Content-Type': 'application/json',
+            },
             redirect: 'follow',
             referrerPolicy: 'no-referrer',
-            body: data,
+            body: JSON.stringify({data}),
         };
         fetch('/searchImages', options)
-        .then(data => data.json())
-        .then(data => generateSearchImages(data.hits))
+        .then(mydata => mydata.json())
+        .then(mydata => generateSearchImages(mydata.hits))
     };
 
     getImageSearch();
@@ -27,6 +27,8 @@ searchImg.addEventListener("click", () => {
 
 
 const generateSearchImages = (arr) => {
+    imgResults.innerHTML = "";
+
     arr.forEach(ele => {
         const imgCont = document.createElement("div");
         imgCont.classList.add("img");

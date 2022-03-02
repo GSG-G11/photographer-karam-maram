@@ -12,7 +12,8 @@ const getData = (req, res) => {
 
 const serachData = (req, res) => {
     const imgData = req.body.data;
-    fetchNode(`https://pixabay.com/api/?key=${process.env.API_KEY}&q=kram`)
+    console.log(imgData, "Image Data")
+    fetchNode(`https://pixabay.com/api/?key=${process.env.API_KEY}&q=${imgData}`)
     .then(data => {
         console.log(data)
         return data.json();
