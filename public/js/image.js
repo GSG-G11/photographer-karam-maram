@@ -2,6 +2,11 @@ const searchImg = document.querySelector("#searchImage");
 const imgInput = document.querySelector("#image-input");
 const imgResults = document.querySelector("#img-results");
 
+fetch("/Imagedata")
+.then(data => data.json())
+.then(data => data.hits)
+.then(data => generateSearchImages(data))
+
 searchImg.addEventListener("click", () => {
     const getImageSearch = () => {
         const data = imgInput.value;
