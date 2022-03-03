@@ -12,13 +12,10 @@ const getData = (req, res) => {
 
 const serachData = (req, res) => {
     const imgData = req.body.data;
-    console.log(imgData, "Image Data")
     fetchNode(`https://pixabay.com/api/?key=${process.env.API_KEY}&q=${imgData}`)
     .then(data => {
-        console.log(data)
         return data.json();
     })
-    // .then(console.log)
     .then(result => res.json(result))
     .catch(err => res.status(404).send(err))
 }
