@@ -12,7 +12,7 @@
 
 ### 📄 <span id='Description'>Description</span>
 
-Photographer is a small website to show images & videos 🤳
+Photographer is a small website to show images 🤳
 
 ### :link: <span id='Links'>Live Link</span>
 
@@ -20,19 +20,17 @@ Photographer is a small website to show images & videos 🤳
 
 ### 🗺️ <span id="journy">User Journy</span>
 
-When user open Photographer website he will see some of photos and videos,
-then user can show only images or videos & search for it.
+When user open Photographer website he will see some of photos.
 
 ### 📰 <span id="story">User Journy</span>
 
-- _As a user_, I will be able to see all photos & videos on website.
+- _As a user_, I will be able to see all photos on website.
 - _As a user_, I will be able to search about photos.
-- _As a user_, I will be able to search about videos.
 
 ### ✨ <span id='api'>API</span>
 
 APIs used in our website is:
-- [Pexels](https://www.pexels.com/api/)
+- [Pixabay](https://pixabay.com/api/docs/)
 
 ### 🛠️ <span id="tools">Technology & Tools</span>
 
@@ -46,12 +44,10 @@ APIs used in our website is:
 - Git & GitHub.
 
 ### 📌 <span id="install">Install Project</span>
-- ```
-git clone https://github.com/GSG-G11/photographer-karam-maram.git
-cd photographer-karam-maram
-code .
-npm i
-```
+- ```git clone https://github.com/GSG-G11/photographer-karam-maram.git```
+- ```cd photographer-karam-maram```
+- ```code .```
+- ```npm i```
 
 ### 👪 <span id="team">Team</span>
 - Karam Zomlot.
